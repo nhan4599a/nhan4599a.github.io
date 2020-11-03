@@ -10,4 +10,8 @@ app.post('/', (req, res) => {
     res.send(`You have sent: ${req.body.name}`);
 });
 
+app.get('/', (req, res) => {
+    res.send('OK');
+});
+
 app.listen(8080);
