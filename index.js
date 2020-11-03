@@ -11,7 +11,7 @@ app.post('/', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('OK');
+    res.sendFile('/view/index.html');
 });
 
 app.listen(8080);
